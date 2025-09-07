@@ -13,6 +13,14 @@
   
 ## Pysical vs Virtual
 
+| Feature     | Physical Server              | Virtual Server                         |
+| ----------- | ---------------------------- | -------------------------------------- |
+| Hardware    | Dedicated machine            | Shared (runs on a physical host)       |
+| Scalability | Hard (requires new hardware) | Easy (create new VMs quickly)          |
+| Cost        | High                         | Low                                    |
+| Performance | Maximum (dedicated)          | Slightly lower (shared)                |
+| Maintenance | Hardware + software          | Mostly software (less hardware hassle) |
+
 ## Hypervisor
 
 ## How to create VM?
