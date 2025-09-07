@@ -73,6 +73,11 @@ Security risks if not properly isolated.
 | Maintenance | Hardware + software          | Mostly software (less hardware hassle) |
 
 ## Hypervisor
+- A Hypervisor is the software or firmware layer that allows you to run multiple virtual servers (VMs) on a single physical server.
+  - ### What is a Hypervisor?
+    - It sits between the hardware and the virtual machines.
+    - It manages and allocates CPU, memory, storage, and network resources to each VM.
+    - Each VM behaves like an independent computer with its own OS and apps.
 
 ## How to create VM?
 
