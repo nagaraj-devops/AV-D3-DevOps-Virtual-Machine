@@ -103,4 +103,3 @@ Example
 
 ## How to create VM?
 
-## Real World example
