@@ -102,3 +102,29 @@ Example
 
 
 ## How to create VM?
+
+🖥️ 1. Create a VM Locally (Using a Hypervisor)
+
+You’ll need a Type-2 Hypervisor like VirtualBox or VMware Workstation.
+
+🔹 Steps with VirtualBox (example):
+
+- Install VirtualBox.
+- Open VirtualBox.
+- Name your VM → Select OS type (Windows/Linux).
+- Allocate RAM (e.g., 4 GB).
+- Create Virtual Hard Disk (e.g., 50 GB).
+- Attach ISO Image (Ubuntu ISO, Windows ISO, etc.).
+- Start VM → It will boot from the ISO and install OS.
+- Done ✅ You have a running VM.
+
+☁️ 2. Create a VM in Cloud (AWS EC2 example)
+
+- Log in to AWS Console.
+- Go to EC2 → Launch Instance.
+- Choose AMI (Amazon Machine Image) → e.g., Ubuntu, Windows.
+- Select Instance Type (e.g., t2.micro = 1 vCPU, 1 GB RAM).
+- Configure Storage & Security Groups (allow SSH/HTTP).
+- Launch Instance → Download the key pair (.pem).
+- Connect to VM via SSH: ssh -i key.pem ubuntu@<public-ip>
+- Now you have a VM running in the cloud.
