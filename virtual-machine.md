@@ -89,6 +89,18 @@ Security risks if not properly isolated.
       - Easier to use for testing and development.
       - Examples: VMware Workstation, Oracle VirtualBox, Parallels Desktop.
 
+Example
+- Imagine a physical server with:
+- 32 GB RAM, 16 CPUs, 1 TB storage.
+
+### A hypervisor can divide it into:
+1. VM1 → 8 GB RAM, 4 CPUs, Ubuntu.
+2. VM2 → 16 GB RAM, 6 CPUs, Windows Server.
+3. VM3 → 8 GB RAM, 6 CPUs, CentOS.
+
+* All running independently on the same hardware. *
+
+
 ## How to create VM?
 
 ## Real World example
