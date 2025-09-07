@@ -78,6 +78,16 @@ Security risks if not properly isolated.
     - It sits between the hardware and the virtual machines.
     - It manages and allocates CPU, memory, storage, and network resources to each VM.
     - Each VM behaves like an independent computer with its own OS and apps.
+  - ### Types of Hypervisors
+    1. Type 1 (Bare-Metal Hypervisor)
+       - Installed directly on the hardware.
+       - More efficient, used in data centers.
+       - Examples: VMware ESXi, Microsoft Hyper-V, KVM, Xen.
+
+    2. Type 2 (Hosted Hypervisor)
+      - Runs on top of an existing operating system.
+      - Easier to use for testing and development.
+      - Examples: VMware Workstation, Oracle VirtualBox, Parallels Desktop.
 
 ## How to create VM?
 
